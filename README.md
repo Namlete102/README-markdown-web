@@ -2,4 +2,4 @@
 
 Chào mừng bạn đến với web được tạo bằng Notepad 
 
-## HOME|ABOUT| 
+## [HOME](./index.txt)|ABOUT| 
