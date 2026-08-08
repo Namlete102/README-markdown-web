@@ -170,8 +170,7 @@ figcaption {
 <script>
  // Danh sách các đường dẫn ảnh của bạn
       const images = [
-        './img/Andrew Wiles.jpg',
-        './img/david foster wallace.jpg',
+        './img/sumida (shimeji simulation).jpg',
       ];
 
       let currentIndex = 0;
@@ -252,3 +251,13 @@ figcaption {
         img.style.width = (img.clientWidth - 50) + "px"; // Reduces width by 50px
       }
 </script>
+
+<style>
+/* Thêm thuộc tính này cho phần tử/phương trình nhận tham chiếu */
+ 
+[id^="eq-"], 
+[id] { 
+    /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
+    scroll-margin-top: 170px; 
+}
+</style>
