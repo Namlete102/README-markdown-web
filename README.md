@@ -24,12 +24,7 @@ Tham chếu đến phương trình \eqref{eq:1}
 <figure>
     <img src="./img/sumida (shimeji simulation).jpg" alt="Shimuda" onclick="openLightbox(0)">
     <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
-</figure>
-
-<figure>
-    <img src="./img/sakura chiyo.jpg" alt="Andrew Wiles" onclick="openLightbox(1)">
-    <figcaption>Nhân vật Sakura Chiyo trong Gekkan shoujo nozaki-kun.</figcaption>
-</figure>
+</figure> 
 
 ### Mermaid 
 
@@ -166,7 +161,8 @@ figure figcaption {
 /* Chú thích */
 
 figcaption {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 16px;
 }
@@ -176,7 +172,6 @@ figcaption {
  // Danh sách các đường dẫn ảnh của bạn
       const images = [
         './img/sumida (shimeji simulation).jpg',
-        './img/sakura chiyo.jpg',
       ];
 
       let currentIndex = 0;
@@ -264,6 +259,6 @@ figcaption {
 [id^="eq-"], 
 [id] { 
     /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
-    scroll-margin-top: 170px; 
+    scroll-margin-top: 15px; 
 }
 </style>
