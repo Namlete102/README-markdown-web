@@ -22,8 +22,13 @@ Tham chếu đến phương trình \eqref{eq:1}
 ### Chèn ảnh
 
 <figure>
-    <img src="./img/sumida (shimeji simulation).jpg" alt="Andrew Wiles" onclick="openLightbox(0)">
-    <figcaption>Nhân vật Shimuda trong Shimeji Shimulationt.</figcaption>
+    <img src="./img/sumida (shimeji simulation).jpg" alt="Shimuda" onclick="openLightbox(0)">
+    <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
+</figure>
+
+<figure>
+    <img src="./img/sakura chiyo.jpg" alt="Andrew Wiles" onclick="openLightbox(1)">
+    <figcaption>Nhân vật Sakura Chiyo trong Gekkan shoujo nozaki-kun.</figcaption>
 </figure>
 
 ### Mermaid 
@@ -171,6 +176,7 @@ figcaption {
  // Danh sách các đường dẫn ảnh của bạn
       const images = [
         './img/sumida (shimeji simulation).jpg',
+        './img/sakura chiyo.jpg',
       ];
 
       let currentIndex = 0;
