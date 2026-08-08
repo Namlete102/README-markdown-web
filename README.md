@@ -11,17 +11,14 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và viết
 Phương trình Dirac trong cơ học lượng tử: 
 
 $$
-\begin{equation}
 (i \gamma^\mu \partial_\mu - m) \psi = 0
-\end{equation}
 $$
 
 ### Chèn ảnh
 
-<div align="center">
-    <img src="./img/sumida (shimeji simulation).jpg" alt="sumida">
-    Nhân vật Sumida trong bộ manga Shimeji Shimulation
-</div>
+![Shimuda](./img/sumida%20(shimeji%20simulation).jpg)
+
+Nhân vật Shimuda trong Shimeji Shimulation
 
 ### Mermaid 
 
@@ -36,3 +33,9 @@ timeline TD
       Bullet 4 : sub-point 4a : sub-point 4b
 ```
 
+### Chèn bảng 
+
+|Tiêu đề 1|Tiêu đề 2|
+|:--------|:--------|
+|Nội dung 1|Nội dung 2|
+|Nội dung 3|Nội dung 4|
