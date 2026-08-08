@@ -13,14 +13,18 @@ Phương trình Dirac trong cơ học lượng tử:
 $$
 \begin{equation}
 (i \gamma^\mu \partial_\mu - m) \psi = 0
+\label{eq:1}
 \end{equation}
 $$
 
+Tham chếu đến phương trình \eqref{eq:1}
+
 ### Chèn ảnh
 
-![Shimuda](./img/sumida%20(shimeji%20simulation).jpg)
-
-Nhân vật Shimuda trong Shimeji Shimulation
+<figure>
+    <img src="./img/sumida (shimeji simulation).jpg" alt="Andrew Wiles" onclick="openLightbox(0)">
+    <figcaption>Nhân vật Shimuda trong Shimeji Shimulationt.</figcaption>
+</figure>
 
 ### Mermaid 
 
@@ -151,6 +155,15 @@ figure figcaption {
   font-size: 12px;
   border-radius: 4px;
   pointer-events: none;
+}
+
+
+/* Chú thích */
+
+figcaption {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
 }
 </style>
 
