@@ -1,7 +1,7 @@
-# Test Notepad web
+# Txt web
 
-Chào mừng bạn đến với web được tạo bằng Notepad 
+Chào mừng bạn đến với web được tạo bằng `README.md` và viết các tệp khác bằng văn bản thần túy (text file). 
 
-## [HOME](./index.txt)|[ABOUT](./about.txt)| 
+## [HOME](#test-notepad-web)|[ABOUT](./about.txt)| 
 
-Nơi đây chúng tôi làm chung con bò với file `README.md` và sử dụng định dạng văn bản thuần túy (text file) để viết, thay vì các định dạng khác. 
+Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
