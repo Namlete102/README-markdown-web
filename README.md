@@ -1,52 +1,3 @@
-# Txt web
-
-Chào mừng bạn đến với web được tạo bằng `README.md` và viết các tệp khác bằng văn bản thần túy (text file). 
-
-## HOME|[ABOUT](./txt/about.txt)| 
-
-Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
-
-### Chèn toán học:
-
-Phương trình Dirac trong cơ học lượng tử: 
-
-$$
-\begin{equation}
-(i \gamma^\mu \partial_\mu - m) \psi = 0
-\label{eq:1}
-\end{equation}
-$$
-
-Tham chếu đến phương trình \eqref{eq:1}
-
-### Chèn ảnh
-
-<figure>
-    <img src="./img/sumida (shimeji simulation).jpg" alt="Shimuda" onclick="openLightbox(0)">
-    <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
-</figure> 
-
-### Mermaid 
-
-```mermaid
-timeline TD
-  title MermaidChart 2023 Timeline
-    section 2023 Q1 <br> Release Personal Tier
-      Bullet 1 : sub-point 1a : sub-point 1b
-      Bullet 2 : sub-point 2a : sub-point 2b
-    section 2023 Q2 <br> Release XYZ Tier
-      Bullet 3 : sub-point <br> 3a : sub-point 3b
-      Bullet 4 : sub-point 4a : sub-point 4b
-```
-
-### Chèn bảng 
-
-|Tiêu đề 1|Tiêu đề 2|
-|:--------|:--------|
-|Nội dung 1|Nội dung 2|
-|Nội dung 3|Nội dung 4|
-
-
 <style>
 /* Chèn ảnh */
 
@@ -168,6 +119,65 @@ figcaption {
 }
 </style>
 
+<style>
+/* Thêm thuộc tính này cho phần tử/phương trình nhận tham chiếu */
+ 
+[id^="eq-"], 
+[id] { 
+    /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
+    scroll-margin-top: 15px; 
+}
+</style>
+
+
+# Txt web
+
+Chào mừng bạn đến với web được tạo bằng `README.md` và viết các tệp khác bằng văn bản thần túy (text file). 
+
+## HOME|[ABOUT](./txt/about.txt)| 
+
+Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
+
+### Chèn toán học:
+
+Phương trình Dirac trong cơ học lượng tử: 
+
+$$
+\begin{equation}
+(i \gamma^\mu \partial_\mu - m) \psi = 0
+\label{eq:1}
+\end{equation}
+$$
+
+Tham chếu đến phương trình \eqref{eq:1}
+
+### Chèn ảnh
+
+<figure>
+    <img src="./img/sumida (shimeji simulation).jpg" alt="Shimuda" onclick="openLightbox(0)">
+    <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
+</figure> 
+
+### Mermaid 
+
+<pre class="mermaid">
+  timeline TD
+    title MermaidChart 2023 Timeline
+      section 2023 Q1 <br> Release Personal Tier
+        Bullet 1 : sub-point 1a : sub-point 1b
+        Bullet 2 : sub-point 2a : sub-point 2b
+      section 2023 Q2 <br> Release XYZ Tier
+        Bullet 3 : sub-point <br> 3a : sub-point 3b
+        Bullet 4 : sub-point 4a : sub-point 4b
+</pre>
+
+### Chèn bảng 
+
+|Tiêu đề 1|Tiêu đề 2|
+|:--------|:--------|
+|Nội dung 1|Nội dung 2|
+|Nội dung 3|Nội dung 4|
+
 <script>
  // Danh sách các đường dẫn ảnh của bạn
       const images = [
@@ -253,12 +263,9 @@ figcaption {
       }
 </script>
 
-<style>
-/* Thêm thuộc tính này cho phần tử/phương trình nhận tham chiếu */
- 
-[id^="eq-"], 
-[id] { 
-    /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
-    scroll-margin-top: 15px; 
-}
-</style>
+<!-- Mermaid -->
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true});
+</script>
