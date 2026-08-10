@@ -1,7 +1,7 @@
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
 <!-- Favicon -->
-<link rel="shortcut icon" href="./img/sakura chiyo.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.io" type="image/x-icon">
 
 <!-- Contents -->
 
