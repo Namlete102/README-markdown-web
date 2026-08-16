@@ -51,22 +51,10 @@ Tham chếu đến phương trình \eqref{eq:1}
 
 ### Chèn bảng 
 
-|Tiêu đề 1|Tiêu đề 2|
+|Số trang|Cập nhật lỗi sai|
 |:--------|:--------|
-|Nội dung 1|Nội dung 2|
-|Nội dung 3|Nội dung 4| 
-
-
-<table border="1">
-  <tr>
-    <td><pre>p. 52</pre></td>
-    <td>In Remark 3.3.9, “ontheir” is missing a space</td>
-  </tr>
-  <tr>
-    <td><pre>p. 54</pre></td>
-    <td>In Example 3.3.21, should “but also what its range is” be “but also what its codomain is”?</td>
-  </tr>
-</table>
+|`p. 52`|In Remark 3.3.9, “ontheir” is missing a space|
+|`p. 54`|In Example 3.3.21, should “but also what its range is” be “but also what its codomain is”?| 
 
 <!-- JS -->
 
