@@ -117,6 +117,14 @@ figcaption {
     font-size: 16px;
 }
 
+/* Mathjax */
+
+.MathJax {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
 /* Thêm thuộc tính này cho phần tử/phương trình nhận tham chiếu */
  
 [id^="eq-"], 

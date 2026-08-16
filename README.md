@@ -122,8 +122,6 @@ Tham chếu đến phương trình \eqref{eq:1}
 </script>
 
 <script>
- //   Mathjax
-
     window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']]
