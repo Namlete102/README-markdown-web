@@ -56,9 +56,8 @@ Tham chếu đến phương trình \eqref{eq:1}
 |Nội dung 1|Nội dung 2|
 |Nội dung 3|Nội dung 4| 
 
-<div class="table-container">
-  <table border="1">
-  <caption id="tab:widgets">Table 1: An example table.</caption>
+
+<table border="1">
   <tr>
     <td><pre>p. 52</pre></td>
     <td>In Remark 3.3.9, “ontheir” is missing a space</td>
@@ -68,7 +67,6 @@ Tham chếu đến phương trình \eqref{eq:1}
     <td>In Example 3.3.21, should “but also what its range is” be “but also what its codomain is”?</td>
   </tr>
 </table>
-</div>
 
 <!-- JS -->
 
