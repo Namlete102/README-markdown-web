@@ -1,3 +1,34 @@
+/* Chèn bảng */
+
+.table-container table{
+  margin: 0px auto;  /* căn giữa bảng */
+  border-collapse: collapse;
+  width: 800px;
+  font-size: 20px;
+}
+
+.table-container table th{
+  font-weight:lighter;
+  border-bottom: 1px solid black;
+}
+
+      th, td {
+          /* Adds a right border to all cells */
+          border-right: 1px solid black;  
+        	padding: 5px; 
+      }
+
+      /* Removes the border from the very last column */
+      th:last-child, td:last-child {
+          border-right: none; 
+      }
+
+      caption {
+        caption-side: bottom;
+        margin-top: 10px;
+        font-size: 20px; 
+      }
+
 /* Chèn ảnh */
 
 figure{

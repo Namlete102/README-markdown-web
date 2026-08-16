@@ -14,8 +14,9 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và viết
 Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa ở file `README.md` này. 
 
 ### Chèn phương trình toán học:
-
-Viết phương trình định lý Pytago ở chế độ `inline math`: \(z^2 = x^2 + y^2\)
+ 
+<!-- Bị lỗi việc viết ptr toán học ở inline math -->
+Viết phương trình định lý Pytago ở chế độ `inline math`: \(z^2 = x^2 + y^2\) 
 
 Viết phương trình Dirac trong cơ học lượng tử ở chế độ `display math`: 
 
@@ -53,7 +54,21 @@ Tham chếu đến phương trình \eqref{eq:1}
 |Tiêu đề 1|Tiêu đề 2|
 |:--------|:--------|
 |Nội dung 1|Nội dung 2|
-|Nội dung 3|Nội dung 4|
+|Nội dung 3|Nội dung 4| 
+
+<div class="table-container">
+  <table border="1">
+  <caption id="tab:widgets">Table 1: An example table.</caption>
+  <tr>
+    <td><pre>p. 52</pre></td>
+    <td>In Remark 3.3.9, “ontheir” is missing a space</td>
+  </tr>
+  <tr>
+    <td><pre>p. 54</pre></td>
+    <td>In Example 3.3.21, should “but also what its range is” be “but also what its codomain is”?</td>
+  </tr>
+</table>
+</div>
 
 <!-- JS -->
 
