@@ -1,7 +1,7 @@
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
 <!-- Favicon -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 
 <!-- Contents -->
 

@@ -1,7 +1,7 @@
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
 <!-- Favicon -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 
 ## [Trang chủ](https://namlete102.github.io/README-markdown-web/)|[Giới thiệu](./about.md)|Cập nhật
 
@@ -35,4 +35,4 @@ Nơi đây sẽ chứa những thông báo mới nhất của dự án.
     + Device tree support
     + Can be used online
 
-Tham khảo ở web [đây](https://bellard.org/tinyemu/): https://bellard.org/tinyemu/
+Tham khảo ở web [đây](https://bellard.org/tinyemu/): <a href="https://bellard.org/tinyemu/" target="_blank">https://bellard.org/tinyemu/</a>
