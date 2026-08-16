@@ -11,9 +11,11 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và viết
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
 
-### Chèn toán học:
+### Chèn phương trình toán học:
 
-Phương trình Dirac trong cơ học lượng tử: 
+Viết phương trình định lý Pytago ở chế độ `inline math`: $z^2 = x^2 + y^2$ 
+
+Viết phương trình Dirac trong cơ học lượng tử ở chế độ `display math`: 
 
 $$
 \begin{equation}
@@ -144,4 +146,3 @@ Tham chếu đến phương trình \eqref{eq:1}
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true});
 </script>
-
