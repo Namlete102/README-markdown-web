@@ -5,11 +5,13 @@
 
 <!-- Contents -->
 
-Chào mừng bạn đến với web được tạo bằng `README.md` và viết các tệp khác bằng văn bản thần túy (text file). 
+Chào mừng bạn đến với web được tạo bằng `README.md` và viết tệp được viết cũng bằng đuôi `.md`. 
 
 ## Trang chủ|[Giới thiệu](./menu/about.md)|[Cập nhật](./menu/news.md) 
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
+
+Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa ở file `README.md` này. 
 
 ### Chèn phương trình toán học:
 
