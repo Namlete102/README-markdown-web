@@ -7,13 +7,13 @@
 
 Chào mừng bạn đến với web được tạo bằng `README.md` và viết các tệp khác bằng văn bản thần túy (text file). 
 
-## Trang chủ|[Giới thiệu](./txt/about.txt)|[Cập nhật](./menu/news.md) 
+## Trang chủ|[Giới thiệu](./menu/about.md)|[Cập nhật](./menu/news.md) 
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
 
 ### Chèn phương trình toán học:
 
-Viết phương trình định lý Pytago ở chế độ `inline math`: $z^2 = x^2 + y^2$ 
+Viết phương trình định lý Pytago ở chế độ `inline math`: \(z^2 = x^2 + y^2\)
 
 Viết phương trình Dirac trong cơ học lượng tử ở chế độ `display math`: 
 
