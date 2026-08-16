@@ -1,15 +1,13 @@
 <!-- CSS -->
 <link rel="stylesheet" href="style.css">
 <!-- Favicon -->
-<link rel="shortcut icon" href="favicon.io" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Contents -->
 
-# Txt web
-
 Chào mừng bạn đến với web được tạo bằng `README.md` và viết các tệp khác bằng văn bản thần túy (text file). 
 
-## Trang chủ|[Giới thiệu](./txt/about.txt)| 
+## Trang chủ|[Giới thiệu](./txt/about.txt)|[Cập nhật](./menu/news.md) 
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
 
