@@ -5,7 +5,7 @@
 
 <!-- Contents -->
 
-Chào mừng bạn đến với web được tạo bằng `README.md` và viết tệp được viết cũng bằng đuôi `.md`. 
+Chào mừng bạn đến với web được tạo bằng `README.md` và với các tệp trình bày nội dung cũng được viết cũng bằng đuôi `.md`. 
 
 ## Trang chủ|[Giới thiệu](./menu/about.md)|[Cập nhật](./menu/news.md) 
 
@@ -13,10 +13,22 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và viết
 
 Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa ở file `README.md` này. 
 
+### Viết văn bản: 
+
+Văn bản thường nè. 
+
+**In đậm**, *In nghiêng*, <u>Gạch chân chữ</u>, ~~Gạch giữa chữ~~. 
+
+### Chèn link: 
+
+Trực tiếp: Mã nguồn dự án https://github.com/Namlete102/README-markdown-web 
+
+Gián tiếp: Nhấp [vào đây](https://github.com/Namlete102/README-markdown-web) để được chuyển đến mã nguồn dự án.  
+
 ### Chèn phương trình toán học:
  
 <!-- Bị lỗi việc viết ptr toán học ở inline math -->
-Viết phương trình định lý Pytago ở chế độ `inline math`: \(z^2 = x^2 + y^2\) 
+Viết phương trình định lý Pytago ở chế độ `inline math`: &z^2 = x^2 + y^2&  
 
 Viết phương trình Dirac trong cơ học lượng tử ở chế độ `display math`: 
 
@@ -32,7 +44,7 @@ Tham chếu đến phương trình \eqref{eq:1}
 ### Chèn ảnh
 
 <figure>
-    <img src="./img/sumida (shimeji simulation).jpg" alt="Shimuda" onclick="openLightbox(0)">
+    <img src="./images/sumida (shimeji simulation).jpg" alt="Shimuda">
     <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
 </figure> 
 
@@ -57,65 +69,6 @@ Tham chếu đến phương trình \eqref{eq:1}
 |`p. 54`|In Example 3.3.21, should “but also what its range is” be “but also what its codomain is”?| 
 
 <!-- JS -->
-
-<script>
-  // Danh sách các đường dẫn ảnh của bạn
-      const images = [
-        './img/sumida (shimeji simulation).jpg',
-      ];
-
-      let currentIndex = 0;
-      const lightbox = document.getElementById('lightbox');
-      const lightboxImg = document.getElementById('lightbox-img');
-
-      // 1. Mở trình xem ảnh
-      function openLightbox(index) {
-        currentIndex = index;
-        lightboxImg.src = images[currentIndex];
-        lightbox.style.display = 'flex';
-        resetZoom(); // Reset lại zoom nếu tấm trước đang zoom
-      }
-
-      // 2. Đóng trình xem ảnh
-      function closeLightbox() {
-        lightbox.style.display = 'none';
-      }
-
-      // 3. Chuyển đổi ảnh (Tiến / Lùi)
-      function changeImage(direction) {
-        currentIndex += direction;
-        
-        // Nếu vượt quá ảnh cuối thì quay về ảnh đầu
-        if (currentIndex >= images.length) {
-          currentIndex = 0;
-        }
-        // Nếu lùi quá ảnh đầu thì tới ảnh cuối
-        if (currentIndex < 0) {
-          currentIndex = images.length - 1;
-        }
-        
-        lightboxImg.src = images[currentIndex];
-        resetZoom(); // Đổi ảnh thì hủy chế độ zoom của ảnh cũ
-      }
-
-      // 4. Bật/Tắt Phóng to (Zoom) khi click vào ảnh
-      lightboxImg.addEventListener('click', toggleZoom);
-
-      function toggleZoom() {
-        lightboxImg.classList.toggle('zoomed');
-      }
-
-      function resetZoom() {
-        lightboxImg.classList.remove('zoomed');
-      }
-
-      // (Tùy chọn) Đóng khi bấm ra vùng đen bên ngoài khung ảnh
-      lightbox.addEventListener('click', function(e) {
-        if (e.target === lightbox) {
-          closeLightbox();
-        }
-      });
-</script>
 
 <!-- Mathjax -->
 <script type="text/javascript" id="MathJax-script" async
