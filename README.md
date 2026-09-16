@@ -82,7 +82,7 @@ Hello \LaTeX
 
 ## Chân trang (footer) 
 
-<div class="footer">
+<div class="footer-web">
     Copyright ©2026; Designed and edited by Namlete
 </div>
 
