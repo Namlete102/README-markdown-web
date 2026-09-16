@@ -82,7 +82,7 @@ Hello \LaTeX
 
 ## Chân trang (footer) 
 
-<div class="footer-web">
+<div style="background-color: #f1f1f1; color:black; padding: 8px; text-align: center;">
     Copyright ©2026; Designed and edited by Namlete
 </div>
 
