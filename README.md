@@ -1,5 +1,5 @@
 <!-- CSS -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/style.css">
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 
