@@ -64,7 +64,7 @@ Hello \LaTeX
 
 <figure>
     <img src="./images/Satanichia McDowell Kurumizawa.gif" alt="Satanichia McDowell Kurumizawa">
-    <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
+    <figcaption>Nhân vật Satanichia McDowell Kurumizawa trong Gabriel DropOut.</figcaption>
 </figure> 
 
 ### Mermaid 
@@ -79,6 +79,12 @@ Hello \LaTeX
         Bullet 3 : sub-point <br> 3a : sub-point 3b
         Bullet 4 : sub-point 4a : sub-point 4b
 </pre>
+
+## Chân trang (footer) 
+
+<footer>
+    Copyright ©2026; Designed and edited by Namlete
+</footer>
 
 <!-- JS -->
 

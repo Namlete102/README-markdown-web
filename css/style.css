@@ -85,3 +85,17 @@ figure figcaption {
     /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
     scroll-margin-top: 15px; 
 }
+
+/* Chân trang (footer) */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  color:black;
+  padding: 8px;
+  text-align: center;
+  z-index: 1000;
+}
