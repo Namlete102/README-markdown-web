@@ -1,9 +1,9 @@
 <!-- CSS -->
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="style.css">
 <!-- Favicon -->
-<link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 
-## [Trang chủ](https://namlete102.github.io/README-markdown-web/)|[Giới thiệu](./about.md)|Cập nhật
+## [Trang chủ](./README.md)|[Giới thiệu](./about.md)|Cập nhật
 
 Nơi đây sẽ chứa những thông báo mới nhất của dự án. 
 
