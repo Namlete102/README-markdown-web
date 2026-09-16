@@ -1,13 +1,13 @@
 <!-- CSS -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 <!-- Favicon -->
-<link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/x-icon">
 
 <!-- Contents -->
 
 Chào mừng bạn đến với web được tạo bằng `README.md` và với các tệp trình bày nội dung cũng được viết cũng bằng đuôi `.md`. 
 
-## Trang chủ|[Giới thiệu](./menu/about.md)|[Cập nhật](./menu/news.md) 
+## Trang chủ|[Giới thiệu](./assets/menu/about.md)|[Cập nhật](./assets/menu/news.md) 
 
 Ở đây chưa có gì cả, nên tôi lấp đại khoảng trống bằng mấy dòng. 
 
@@ -70,13 +70,6 @@ Hello \LaTeX
         Bullet 3 : sub-point <br> 3a : sub-point 3b
         Bullet 4 : sub-point 4a : sub-point 4b
 </pre>
-
-### Chèn bảng 
-
-|Số trang|Cập nhật lỗi sai|
-|:--------|:--------|
-|`p. 52`|In Remark 3.3.9, “ontheir” is missing a space|
-|`p. 54`|In Example 3.3.21, should “but also what its range is” be “but also what its codomain is”?| 
 
 <!-- JS -->
 
