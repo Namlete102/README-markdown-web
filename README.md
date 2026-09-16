@@ -13,8 +13,6 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và với 
 
 Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa ở file `README.md` này. 
 
-![banner](./images/rain.gif)
-
 ### Viết văn bản: 
 
 Văn bản thường nè. 
@@ -55,8 +53,17 @@ Hello \LaTeX
 
 ### Chèn ảnh
 
+Ảnh đuôi file là jpg: 
+
 <figure>
     <img src="./images/sumida (shimeji simulation).jpg" alt="Shimuda">
+    <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
+</figure> 
+
+Ảnh đuôi file là gif: 
+
+<figure>
+    <img src="./images/Satanichia McDowell Kurumizawa.gif" alt="Satanichia McDowell Kurumizawa">
     <figcaption>Nhân vật Shimuda trong Shimeji Shimulation.</figcaption>
 </figure> 
 
