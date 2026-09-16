@@ -27,7 +27,6 @@ Gián tiếp: Nhấp [vào đây](https://github.com/Namlete102/README-markdown-
 
 ### Chèn phương trình toán học:
  
-<!-- Bị lỗi việc viết ptr toán học ở inline math -->
 Viết phương trình định lý Pytago ở chế độ `inline math`: \\(z^2 = x^2 + y^2\\)  
 
 Viết phương trình Dirac trong cơ học lượng tử ở chế độ `display math`: 
@@ -40,6 +39,17 @@ $$
 $$
 
 Tham chếu đến phương trình \eqref{eq:1}
+
+### Chèn code 
+
+DIsplay code: 
+
+```latex
+\documentclass{article}
+\begin{document}
+Hello \LaTeX
+\end{document}
+```
 
 ### Chèn ảnh
 

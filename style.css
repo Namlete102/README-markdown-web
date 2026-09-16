@@ -45,12 +45,6 @@ figure{
 figure img{
   max-width: 80%;
   max-height: 80%;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-figure img:hover {
-  transform: scale(1.05);
 }
 
 figure figcaption {
