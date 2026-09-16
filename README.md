@@ -86,14 +86,14 @@ Hello \LaTeX
 <footer>
     <div class="footerNav">
           <ul>
-              <li><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact me</a></li>
-              <li><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank">Github</a></li>
+            <li><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank">Github</a></li>
+            <li><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact me</a></li>
           </ul>
     </div>
     <div class="footerBottom">
       <p>Copyright &copy;2026; Designed and edited by Namlete</p>
     </div>
-  </footer>
+</footer>
 
 <!-- JS -->
 
