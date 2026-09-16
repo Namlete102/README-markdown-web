@@ -82,9 +82,11 @@ Hello \LaTeX
 
 ## Chân trang (footer) 
 
+<div>
 <footer>
     Copyright ©2026; Designed and edited by Namlete
 </footer>
+</div>
 
 <!-- JS -->
 
