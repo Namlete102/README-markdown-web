@@ -86,6 +86,14 @@ figure figcaption {
     scroll-margin-top: 15px; 
 }
 
+/* Footnote */
+
+.Footnote{
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+
 /* footer */
 
 footer{
@@ -115,7 +123,6 @@ footer{
     opacity: 3;
     color:rgb(50, 78, 192); 
 }
-
 .footerBottom{
     margin-bottom: 20px;
     text-align: center;
@@ -126,3 +133,20 @@ footer{
     color:rgb(255, 253, 252);
 }
 
+.designer{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+}

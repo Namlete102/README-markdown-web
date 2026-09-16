@@ -83,17 +83,19 @@ Hello \LaTeX
 ## Chân trang (footer) 
 
 <!-- Footer -->
-<footer>
-    <div class="footerNav">
-          <ul>
-            <li><a href="https://github.com/Namlete102/readme-markdown-web" target="_blank">Github</a></li>
-            <li><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact me</a></li>
-          </ul>
-    </div>
-    <div class="footerBottom">
-      <p>Copyright &copy;2026; Designed and edited by Namlete</p>
-    </div>
-</footer>
+    <!-- Footer -->
+  <footer>
+        <div class="footerNav">
+            <ul>
+                <li><a href="https://github.com/Namlete102/LaTeX-theme" target="_blank">Github</a></li>            
+                <li><a href="https://namlete102.github.io/Namleteblog.github.io/aboutme.html" target="_blank">Contact me</a></li>
+                <li><a href="http://www.facebook.com/sharer.php? u=https://namnl2510757-gif.github.io/130526/" target="_blank">Share</a></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2026; Designed and edited by Namlete</p>
+        </div>
+  </footer>
 
 <!-- JS -->
 
