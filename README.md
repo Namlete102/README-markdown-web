@@ -13,6 +13,8 @@ Chào mừng bạn đến với web được tạo bằng `README.md` và với 
 
 Và dưới đây sẽ là các mục các vấn đề được chỉnh sửa ở file `README.md` này. 
 
+![banner](./images/rain.gif)
+
 ### Viết văn bản: 
 
 Văn bản thường nè. 
