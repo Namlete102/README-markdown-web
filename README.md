@@ -25,6 +25,22 @@ Trực tiếp: Mã nguồn dự án [https://github.com/Namlete102/README-markdo
 
 Gián tiếp: Nhấp [vào đây](https://github.com/Namlete102/README-markdown-web) để được chuyển đến mã nguồn dự án.  
 
+Có thể sử dụng thẻ `<a>` bên HTML để chèn link: Nhấp <a href="https://github.com/Namlete102/README-markdown-web" target="_blank">vào đây</a> để được chuyển đến mã nguồn dự án ở một tab khác bên trong trình duyệt web.
+
+### Chèn danh sách: 
+
+Danh sách không có thứ tự: 
+
++ Một
++ Hai
++ Ba
+
+Danh sách có thứ tự: 
+
+1. Một 
+2. Hai 
+3. Ba
+
 ### Chèn phương trình toán học:
  
 Viết phương trình định lý Pytago ở chế độ `inline math`: \\(z^2 = x^2 + y^2\\)  
